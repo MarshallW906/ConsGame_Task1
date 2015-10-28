@@ -18401,10 +18401,10 @@ cr.behaviors.scrollto = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Keyboard,
 	cr.plugins_.Mouse,
-	cr.plugins_.Sprite,
+	cr.plugins_.Keyboard,
 	cr.plugins_.Text,
+	cr.plugins_.Sprite,
 	cr.plugins_.TiledBg,
 	cr.behaviors.destroy,
 	cr.behaviors.Bullet,
